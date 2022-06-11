@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\bank_atm\\project2.csproj": {}
+    "C:\\Users\\DELL\\source\\repos\\bank_atm\\bank_atm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\bank_atm\\project2.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\bank_atm\\bank_atm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\bank_atm\\project2.csproj",
-        "projectName": "project2",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\bank_atm\\project2.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\bank_atm\\bank_atm.csproj",
+        "projectName": "bank_atm",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\bank_atm\\bank_atm.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\DELL\\source\\repos\\bank_atm\\obj\\",
         "projectStyle": "PackageReference",

@@ -1030,11 +1030,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\project2\\project2.csproj",
-      "projectName": "project2",
-      "projectPath": "C:\\Users\\DELL\\source\\repos\\project2\\project2.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\bank_atm\\bank_atm.csproj",
+      "projectName": "bank_atm",
+      "projectPath": "C:\\Users\\DELL\\source\\repos\\bank_atm\\bank_atm.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\source\\repos\\project2\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\source\\repos\\bank_atm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
