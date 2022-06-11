@@ -115,7 +115,6 @@ namespace project2
                     default:
                         Console.WriteLine("please enter valid no.........!");
                         goto recycle;
-                        break;
                 }
             }
             else
