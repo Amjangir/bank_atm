@@ -8,6 +8,14 @@ namespace project2
 {
     class Program
     {
+        public static List<User> users = new List<User>()
+        {
+            new User { id = 1, username = "amit", password = "12345", pin = "1234", account = "11111" },
+            new User { id = 2, username = "arif", password = "12345", pin = "1234", account = "22222" },
+            new User { id = 3, username = "sumit", password = "12345", pin = "1234", account = "33333" },
+            new User { id = 4, username = "arshad", password = "12345", pin = "1234", account = "44444" },
+            new User { id = 5, username = "pooja", password = "12345", pin = "1234", account = "55555" },
+        };
         public static void get()
         {
         start:
@@ -16,7 +24,7 @@ namespace project2
             Console.WriteLine("enter password.");
             string pass = Console.ReadLine();
 
-            var user = Program.users.Where(s => s.username == username && s.password == pass).SingleOrDefault();
+            var user = Program.users.Single(s => s.username == username && s.password == pass);
 
             if (user != null)
             {
@@ -125,20 +133,6 @@ namespace project2
         }
 
 
-        public static IList<User> users = new List<User>()
-        {
-            new User { id = 1, username = "amit", password = "12345", pin = "1234", account = "11111" },
-            new User { id = 2, username = "arif", password = "12345", pin = "1234", account = "22222" },
-            new User { id = 3, username = "sumit", password = "12345", pin = "1234", account = "33333" },
-            new User { id = 4, username = "arshad", password = "12345", pin = "1234", account = "44444" },
-            new User { id = 5, username = "pooja", password = "12345", pin = "1234", account = "55555" },
-        };
-
-        public static void AddUser(string _uname, string _pass, string _pin, string _acc)
-        {
-            var user = new User { id = 1, username = _uname, password = _pass, pin = _pin, account = _acc };
-            users.Add(user);
-        }
         static void Main(string[] args)
         {
             //Program.AddUser("amit", "12345", "1234", "1234567890");
